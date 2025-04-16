@@ -1,5 +1,1 @@
-[server]
-headless = true
 
-[general]
-setupCommand = "bash setup.sh"
