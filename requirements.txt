@@ -1,6 +1,6 @@
 streamlit
 fpdf
-openai>=1.2.0
+openai
 PyPDF2
 pdfminer.six
 spacy
