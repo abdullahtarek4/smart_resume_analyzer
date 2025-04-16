@@ -1,8 +1,15 @@
 import re
 import spacy
 from pdfminer.high_level import extract_text
+import subprocess
+import importlib
 
-nlp=spacy.load('en_core_web_sm')
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    importlib.invalidate_caches()
+    nlp = spacy.load("en_core_web_sm")
 
 def extract_resume_text(file):
     return extract_text(file)
