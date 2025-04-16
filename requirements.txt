@@ -1,0 +1,5 @@
+streamlit
+spacy
+fpdf
+openai
+PyPDF2
