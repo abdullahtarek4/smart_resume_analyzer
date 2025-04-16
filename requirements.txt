@@ -4,3 +4,6 @@ fpdf
 openai
 PyPDF2
 pdfminer.six
+os
+re
+pdfminer
