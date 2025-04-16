@@ -3,3 +3,4 @@ spacy
 fpdf
 openai
 PyPDF2
+pdfminer.six
