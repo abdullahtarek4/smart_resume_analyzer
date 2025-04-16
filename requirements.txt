@@ -3,7 +3,7 @@ spacy
 fpdf
 openai
 PyPDF2
-pdfminer.six
+pdfminer.high_level
 os
 re
 
