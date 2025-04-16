@@ -6,7 +6,4 @@ PyPDF2
 pdfminer.six
 os
 re
-pdfminer
-resume_parser
-get_suggestions
-report_generator
+
